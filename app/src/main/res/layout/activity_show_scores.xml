@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_show_scores"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="travistkachuk.ffbpprlinearregression.ShowScores">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/background_light">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/TitleBar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:text="FFB PPR Linear Regression"
+            android:id="@+id/txtTitle"
+            android:gravity="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="18dp" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/TitleBar">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:elevation="1dp">
+
+                <TextView
+                    android:text="Regressed Score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtQBScore"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="64dp"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:text="QB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="64dp"
+                    android:textColorLink="@android:color/black"
+                    android:textColor="@android:color/black" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:elevation="1dp">
+
+                <TextView
+                    android:text="Regressed Score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtRB1Score"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="64dp"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:text="RB1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="64dp"
+                    android:textColorLink="@android:color/black"
+                    android:textColor="@android:color/black" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:elevation="1dp">
+
+                <TextView
+                    android:text="Regressed Score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtRB2Score"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="64dp"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:text="RB2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="64dp"
+                    android:textColorLink="@android:color/black"
+                    android:textColor="@android:color/black" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:elevation="1dp">
+
+                <TextView
+                    android:text="Regressed Score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtWR1Score"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="64dp"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:text="WR1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="64dp"
+                    android:textColorLink="@android:color/black"
+                    android:textColor="@android:color/black" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:elevation="1dp">
+
+                <TextView
+                    android:text="Regressed Score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtWR2Score"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="64dp"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:text="WR2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="64dp"
+                    android:textColorLink="@android:color/black"
+                    android:textColor="@android:color/black" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:elevation="1dp">
+
+                <TextView
+                    android:text="Regressed Score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtKScore"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="64dp"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:text="K"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="64dp"
+                    android:textColorLink="@android:color/black"
+                    android:textColor="@android:color/black" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:elevation="1dp">
+
+                <TextView
+                    android:text="Regressed Score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtDSTScore"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="64dp"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:text="DST"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="64dp"
+                    android:textColorLink="@android:color/black"
+                    android:textColor="@android:color/black" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:elevation="1dp">
+
+                <TextView
+                    android:text="Regressed Score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtFLXScore"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="64dp"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:text="FLX"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="64dp"
+                    android:textColorLink="@android:color/black"
+                    android:textColor="@android:color/black" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:elevation="1dp">
+
+                <TextView
+                    android:text="Regressed Score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtTotalScore"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="64dp"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:text="Total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="64dp"
+                    android:textColorLink="@android:color/black"
+                    android:textColor="@android:color/black" />
+            </FrameLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
